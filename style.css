@@ -142,33 +142,29 @@ body {
     justify-content: center;
     height: 85vh;
     text-align: center;
+    background-image: url(IMG_0556.jpg);
+   
   }
   
-  .main-visual-inner {
-    padding: 0 40px;
-  }
+  
+
 
 
   .main-visual-title {
-    font-size: 60px;
+    font-size: 100px;
     font-weight: bold;
     line-height: 1.2;
     margin-bottom: 5px;
     letter-spacing: .1em;
-    font-family: 'GAGAGAGA';
-
-  }
-  .main-visual-subtitle {
-    font-size: 20px;
-    font-weight: bold;
-    line-height: 1;
-    margin-bottom: 40px;
-    letter-spacing: .08em;
-  }
-  .main-visual{
-    background-image:url(IMG_0556.jpg) ;
+    font-family: 'Anton', sans-serif;
+    color:#fff;
+    
+   
+    
+   
   }
   
+ 
   /*--------------------------------
    Works
   ---------------------------------*/
@@ -463,14 +459,17 @@ body {
   list-style: none;
   margin: 0 0 -8px;
   overflow: hidden;
+  text-align: center;
+  margin-left: 595px;
 
-  padding-left: 610px;
+ 
 }
 .follow-me li {
-  float: left;
+  float:left;
   margin: 0 8px 8px 0;
   padding: 0;
 }
+
 .follow-me li a::before {
   -webkit-border-radius: 2px;
   border-radius: 2px;
