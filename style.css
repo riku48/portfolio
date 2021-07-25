@@ -247,11 +247,9 @@ body {
   .profile-img {
     width: 20%;
     margin-right: 30px;
-    border-radius: 50%;
+    
   }
-  .profile-img img {
-    border-radius: 50%;
-  }
+
   .profile-body {
     flex: 1;
   }
